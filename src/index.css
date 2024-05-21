@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0e0f1a;
+  font-family: "Sora", sans-serif;
+  color: white;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #f87516 0%, #5e11ff 100%);
+  background-size: 300% 300%;
+  background-clip: text;
+}
+.btn {
+  background: linear-gradient(90deg, #f87516 0%, #5e11ff 100%);
+}
+
+.gradient_box {
+  background: hsla(257, 68%, 7%, 1);
+
+  background: linear-gradient(
+    270deg,
+    hsla(257, 68%, 7%, 1) 0%,
+    hsla(258, 28%, 16%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    270deg,
+    hsla(257, 68%, 7%, 1) 0%,
+    hsla(258, 28%, 16%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(257, 68%, 7%, 1) 0%,
+    hsla(258, 28%, 16%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0D061F", endColorstr="#241D34", GradientType=1 );
+}
